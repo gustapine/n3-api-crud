@@ -27,18 +27,18 @@ Let's get started with the PET Management API and empower you to efficiently man
 In the given scenario, we will be working with three specific types of objects: Pets, Tutors, and Heights. However, our current focus will be on Pets administration since that is our primary concern at the moment. To interact with the necessary endpoints, we have the following base URLs:
 
 1. Pets API:
-   - Base URL: `https://example.com/api/pet`  ‼️ This is the one ‼️
+   - Base URL: `http://localhost:5000/api/pet`  ‼️ This is the one ‼️
 
 2. Tutors API:
-   - Base URL: `https://example.com/api/tutor`
+   - Base URL: `http://localhost:5000/api/tutor`
 
 3. Heights API:
-   - Base URL: `https://example.com/api/altura`
+   - Base URL: `http://localhost:5000/api/altura`
 
 In addition to the object-specific APIs, we also have an authentication pathway to handle the generation and authentication of JSON Web Tokens (JWTs). The base URL for the authentication API is:
 
 - Authentication API:
-  - Base URL: `https://example.com/api/auth`
+  - Base URL: `http://localhost:5000/api/auth`
 
 By utilizing these base URLs, you can construct the appropriate endpoints to perform the necessary operations related to Pets administration and authentication using JWTs.
 
@@ -195,7 +195,7 @@ Retrieves pet information for specifics pets by their tutor.
 ```
 ## Authentication
 
-Now you'll have to to change the url to : `https://example.com/api/auth`. This will generate a token to access the application:
+Now you'll have to to change the url to : `http://localhost:5000/api/auth`. This will generate a token to access the application:
 
 - Endpoint: POST ```/auth/login```
 - Request Format: JSON
